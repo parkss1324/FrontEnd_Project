@@ -1,0 +1,41 @@
+body{
+    margin: 0; /* 화면 가장자리 흰색 테두리를 없앰 */
+}
+section{
+    height: 100vh; /* view heght 보는 화면 전체를 활용 */
+    background: url(TEST_PICTURE.JPG) fixed; /* 이미지 고정 */
+    background-size: 100%;
+    background-attachment: scroll;
+}
+
+section:before{
+    content: '';
+    background: linear-gradient(to right, black, transparent); /* 그라데이션 효과 */
+    position: absolute;
+    left: 0; /* 빈공간 없이 왼쪽부터 시작 */
+    height: 100%;
+    width: 50%; 
+}
+
+h1{
+    color: beige;
+    font-size: 4em;
+    position: absolute;
+    top: 200px;
+    left: 100px;
+    font-family: sans-serif;
+
+    animation: slideText 1s ease-out;
+}
+
+@keyframes slideText {
+    from{
+        left: -100px;
+        opacity: 0;
+    }
+
+    to{
+        left: 100px;
+        opacity: 1;
+    }
+}

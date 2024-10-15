@@ -1,0 +1,41 @@
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device=width, initial-sale=1.0">
+        <title>Document</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="https://code.jquery.com/jquery-3.7.1.js"></script>
+        <script>
+            $(document).ready(function(){
+                $(".btn").hover(function(){
+                    $(this).css({
+                        "background" : "skyblue",
+                        "transition" : "0.7s"                       
+                    })
+                }, function(){
+                    $(this).css({
+                        "background" : "blue",
+                        "transition" : "0.5s" 
+                    })
+                })
+            });
+        </script>
+        <style>
+            .btn{
+                width: 100px;
+                height: 40px;
+                line-height: 40px;
+                background: blue;
+                color: whitesmoke;
+                text-align: center;
+                cursor: pointer;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="btn">버튼</div>
+    </body>
+</html>
