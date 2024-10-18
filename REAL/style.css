@@ -148,7 +148,7 @@ a:hover{
     margin-bottom: 40px;
     border-bottom: 2px solid black;
 }
-
+/*
 .links>a{
     font-family: 'Montserrat', sans-serif;
     font-size: 30px;
@@ -164,7 +164,7 @@ a:hover{
     margin: 0;
     margin-top: 5px;
 }
-
+*/
 
 
 
@@ -276,18 +276,6 @@ a:hover{
     text-align: center;
 }
 
-
-a[title="Freepik"]:hover{
-    color: black;
-    text-decoration: underline;
-}
-
-a[title="Flaticon"]:hover{
-    color: black;
-    text-decoration: underline;
-}
-
-
 /* RECENT WORKS */
 
 .recent-works{
@@ -312,7 +300,7 @@ a[title="Flaticon"]:hover{
 
 .article-name{
     font-family: 'Noto Sans KR', sans-serif;
-    font-size: 50px;
+    font-size: 20px;
     margin-top: 0px;
     margin-bottom: 30px;
 }
