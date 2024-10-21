@@ -12,7 +12,7 @@ body{
 /* navigation */
 
 .navigation{
-    position: fixed;
+    position: fixed; 
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -22,7 +22,7 @@ li{
     display: inline;
     align-self: center;
     margin:0;
-    margin-left: 15px;
+    margin-left: 70px;
 }
 
 ul{
@@ -32,14 +32,14 @@ ul{
 .site-name{
     margin:0;
     font-family: 'Montserrat', sans-serif;
-    font-size: 20px;
+    font-size: 25px;
     color: #C2B4AB;
 }
 
 .nav-menu{
     font-family: 'Montserrat', sans-serif;
-    font-weight: 400;
-    font-size: 16px;
+    font-weight: 200;
+    font-size: 20px;
 }
 
 a{
@@ -149,6 +149,15 @@ a:hover{
     margin-bottom: 40px;
     border-bottom: 2px solid black;
 }
+
+.blog{
+    margin: 20px;
+}
+
+.github{
+    margin: 20px;
+}
+
 /*
 .links>a{
     font-family: 'Montserrat', sans-serif;
@@ -305,13 +314,13 @@ a:hover{
     margin-top: 0px;
     margin-bottom: 30px;
 }
-
+/*
 .article-name:hover{
     color: pink;
     -webkit-text-stroke: 1px black;
     transition: 0.3s;
 }
-
+*/
 
 
 .article-comment{
@@ -340,11 +349,11 @@ a:hover{
     position: relative;
     /*right: 0px;*/
 }
-
+/*
 #name1:hover{
     color: skyblue;
 }
-
+*/
 #name2-1{
     text-align: right;
     position: relative;
@@ -357,7 +366,8 @@ a:hover{
     position: relative;
     left: 100px;
 }
-
+/*
 #name2-2:hover{
     color: orange;
 }
+*/
