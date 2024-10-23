@@ -247,14 +247,12 @@ a:hover{
 
 }
 
-
 .value-icon{
-    width: 100px;
-    height: 100px;
+    width: 150px;
+    height: 150px;
 
-    border: 2px solid #C2B4AB;
-    border-radius: 100px;
-    padding: 15px;
+    border: 1px solid #C2B4AB;
+    border-radius: 30px;
 }
 
 .value-intro{
