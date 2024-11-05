@@ -22,12 +22,12 @@ li{
     display: inline;
     align-self: center;
     margin:0;
-    margin-left: 70px;
+    margin-left: 50px;
 }
 
 ul{
     margin:0;
-    margin-right: 150px;
+    margin-right: 50px;
 }
 
 .site-name{
@@ -373,3 +373,7 @@ a:hover{
     color: orange;
 }
 */
+
+
+/* Embedded */
+
