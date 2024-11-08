@@ -394,3 +394,8 @@ a:hover{
     border: 2px solid #C2B4AB;
     border-radius: 25px;
 }
+
+.introduction>h3{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+}
