@@ -402,14 +402,30 @@ a:hover{
 
 .embedded_pic_01{
     justify-content: center;
+    text-align: center;
 }
 
-.embedded_pic_01 img {
+.embedded_pic_01 img{
     margin: 20px;
-    width: 200px; /* 모든 이미지의 동일한 너비 */
-    height: 200px; /* 모든 이미지의 동일한 높이 */
-    object-fit: cover; /* 이미지 비율 유지 */
-    border: 2px solid #ccc; /* 이미지 테두리 */
-    border-radius: 8px; /* 둥근 모서리 */
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* 그림자 효과 */
-  }
+    width: 200px; 
+    height: 200px; 
+    object-fit: cover; 
+    border: 2px solid #ccc; 
+    border-radius: 8px; 
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);    
+}
+
+#header_navi > li {
+    display: inline-block;
+    position: relative;
+}
+
+#header_navi > li > a > span {
+    position:absolute; 
+    bottom:2px; 
+    left:50%;  
+    color:#666; 
+    line-height:1.462em; 
+    white-space:nowrap; 
+    transform:translate(-50%, 0)
+}
