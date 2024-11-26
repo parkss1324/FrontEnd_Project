@@ -359,6 +359,36 @@ Embedded
 }
 
 /* embedded-six */
+
+#embedded_list_04 > li{
+    margin: 0;
+    margin-right: 80px;
+    display: inline-block;
+    position: relative;
+}
+
+#embedded_list_04 > li > a{
+    display: block; 
+    position: relative; 
+    padding-bottom: 19px;
+
+}
+
+#embedded_list_04 > li > a > img{
+    width: 200px; 
+    height: 200px;
+}
+
+#embedded_list_04 > li > a > span{
+    position:absolute; 
+    bottom: 0; 
+    left: 50%; 
+    color: #666; 
+    line-height: 1.462em; 
+    white-space: nowrap; 
+    transform: translate(-50%, 0);
+}
+
 /* embedded-seven */
 
 /* 
