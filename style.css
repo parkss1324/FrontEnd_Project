@@ -113,7 +113,6 @@ body{
     flex-direction: row;
     justify-content: center;
     align-items: flex-start;
-
     margin: 100px 100px;
 }
 
@@ -241,6 +240,7 @@ Embedded
     margin-right: 60px;
     border: 2px solid #C2B4AB;
     border-radius: 25px;
+    
 }
 
 .embedded-introduction>h2{
@@ -253,6 +253,19 @@ Embedded
     font-family: 'Noto Sans KR', sans-serif;
     font-weight: 300;
     font-size: 16px;
+    animation: slide 2s ease-out;
+    position: relative;
+}
+
+@keyframes slide{
+    from{
+        left: 100px;
+        opacity: 0;
+    }
+    to{
+        left: 0px;
+        opacity: 1;
+    }
 }
 
 /* embedded-one */
@@ -427,6 +440,8 @@ Front-End
     font-family: 'Noto Sans KR', sans-serif;
     font-weight: 300;
     font-size: 16px;
+    animation: slide 2s ease-out;
+    position: relative;
 }
 
 /* frontend-one */
