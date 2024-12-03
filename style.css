@@ -451,3 +451,43 @@ Front-End
     font-family: 'Montserrat', sans-serif;
     font-size: 35px;
 }
+
+/* 
+Back-End 
+*/
+
+/* backend-section */
+
+.backend-section{
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: flex-start;
+    margin: 100px 100px;
+}
+
+#backend-picture{
+    width: 250px;
+    height: 250px;
+    margin-right: 60px;
+    border: 2px solid #C2B4AB;
+    border-radius: 25px;
+}
+
+.backend-introduction{
+    margin-left: 75px;
+}
+
+.backend-introduction>h2{
+    margin: 0px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 35px;
+}
+
+.backend-introduction>p{
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    animation: slide 2s ease-out;
+    position: relative;
+}
