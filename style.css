@@ -456,6 +456,22 @@ Front-End
     font-size: 35px;
 }
 
+/* frontend-two */
+
+.frontend-two>h4{
+    font-size: 17px;
+}
+
+/* frontend-three */
+
+#semantic-picture{
+    width: 300px;
+    height: 300px;
+    margin-right: 400px;
+    border: 2px solid #C2B4AB;
+    border-radius: 25px;
+}
+
 /* 
 Back-End 
 */
@@ -470,12 +486,12 @@ Back-End
     margin: 100px 100px;
 }
 
-#backend-picture{
+#semantic-picture{
     width: 250px;
     height: 250px;
-    margin-right: 60px;
+    margin-left: 180px;
     border: 2px solid #C2B4AB;
-    border-radius: 25px;
+    border-radius: 5px;
 }
 
 .backend-introduction{
