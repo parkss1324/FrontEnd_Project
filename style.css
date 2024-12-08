@@ -481,17 +481,18 @@ Back-End
 .backend-section{
     display: flex;
     flex-direction: row;
-    justify-content: left;
+    justify-content: center;
     align-items: flex-start;
     margin: 100px 100px;
 }
 
-#semantic-picture{
+#backend-picture{
     width: 250px;
     height: 250px;
-    margin-left: 180px;
+    margin-right: 60px;
     border: 2px solid #C2B4AB;
-    border-radius: 5px;
+    border-radius: 25px;
+    
 }
 
 .backend-introduction{
