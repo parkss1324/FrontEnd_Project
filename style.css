@@ -462,6 +462,35 @@ Front-End
     font-size: 17px;
 }
 
+#frontend_list_01 > li{
+    margin: 0;
+    margin-right: 50px;
+    display: inline-block;
+    position: relative;
+}
+
+#frontend_list_01 > li > a{
+    display: block; 
+    position: relative; 
+    padding-bottom: 19px;
+
+}
+
+#frontend_list_01 > li > a > img{
+    width: 150px; 
+    height: 150px;
+}
+
+#frontend_list_01 > li > a > span{
+    position:absolute; 
+    bottom: 0; 
+    left: 50%; 
+    color: #666; 
+    line-height: 1.462em; 
+    white-space: nowrap; 
+    transform: translate(-50%, 0);
+}
+
 /* frontend-three */
 
 #semantic-picture{
