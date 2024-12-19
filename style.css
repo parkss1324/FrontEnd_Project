@@ -348,7 +348,7 @@ Embedded
 
 #embedded_list_03 > li{
     margin: 0;
-    margin-right: 80px;
+    margin-right: 150px;
     display: inline-block;
     position: relative;
 }
@@ -379,7 +379,7 @@ Embedded
 
 #embedded_list_04 > li{
     margin: 0;
-    margin-right: 80px;
+    margin-right: 150px;
     display: inline-block;
     position: relative;
 }
@@ -464,7 +464,7 @@ Front-End
 
 #frontend_list_01 > li{
     margin: 0;
-    margin-right: 50px;
+    margin-left: 75px;
     display: inline-block;
     position: relative;
 }
@@ -477,8 +477,8 @@ Front-End
 }
 
 #frontend_list_01 > li > a > img{
-    width: 150px; 
-    height: 150px;
+    width: 300px; 
+    height: 200px;
 }
 
 #frontend_list_01 > li > a > span{
@@ -496,7 +496,7 @@ Front-End
 #semantic-picture{
     width: 300px;
     height: 300px;
-    margin-right: 400px;
+    margin-left: 150px;
     border: 2px solid #C2B4AB;
     border-radius: 25px;
 }
