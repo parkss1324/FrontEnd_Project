@@ -541,3 +541,42 @@ Back-End
     animation: slide 2s ease-out;
     position: relative;
 }
+
+/* 
+Machine-Vision
+*/
+
+.machine-section{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    margin: 100px 100px;
+}
+
+#machine-picture{
+    width: 250px;
+    height: 250px;
+    margin-right: 60px;
+    border: 2px solid #C2B4AB;
+    border-radius: 25px;
+    
+}
+
+.machine-introduction{
+    margin-left: 75px;
+}
+
+.machine-introduction>h2{
+    margin: 0px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 35px;
+}
+
+.machine-introduction>p{
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    animation: slide 2s ease-out;
+    position: relative;
+}
