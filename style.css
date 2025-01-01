@@ -501,6 +501,13 @@ Front-End
     border-radius: 25px;
 }
 
+#frontend-semantic{
+    width: 300px;
+    height: 300px;
+    margin-left: 150px;
+    border: 2px solid #C2B4AB;
+    border-radius: 25px;
+}
 /* 
 Back-End 
 */
