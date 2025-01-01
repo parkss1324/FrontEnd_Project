@@ -605,6 +605,36 @@ Front-End
     transform: translate(-50%, 0);
 }
 
+#frontend_list_05 > li{
+    margin: 0;
+    /* margin-left: 75px; */
+    margin-left: 200px;
+    display: inline-block;
+    position: relative;
+}
+
+#frontend_list_05 > li > a{
+    display: block; 
+    position: relative; 
+    padding-bottom: 19px;
+
+}
+
+#frontend_list_05 > li > a > img{
+    width: 350px; 
+    height: 200px;
+}
+
+#frontend_list_05 > li > a > span{
+    position:absolute; 
+    bottom: 0; 
+    left: 50%; 
+    color: #666; 
+    line-height: 1.462em; 
+    white-space: nowrap; 
+    transform: translate(-50%, 0);
+}
+
 /* 
 Back-End 
 */
