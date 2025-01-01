@@ -77,17 +77,19 @@ body{
     transition: none;
 }
 
+/* 기본값 */
 .highlight{
     color: white;
-    -webkit-text-stroke: 1px black;
+    -webkit-text-stroke: 1px black; /* 텍스트 문자에 테두리 외곽선(획)을 스타일하는 속성 */
 }
 
+/* 마우스 커서를 글자에 가져가면 */
 .highlight:hover{
-    background-color: green;
     color: black;
-    transition: none;
+    transition: 1s; /* 1초 동안 변경 */
 }
 
+/* 마우서 커서를 글자에 가져간 후 배경색 */
 .type1:hover{
     background-color: yellowgreen;
 }
@@ -542,6 +544,45 @@ Front-End
     white-space: nowrap; 
     transform: translate(-50%, 0);
 }
+
+/* frontend-four */
+
+#frontend_list_03 > li{
+    margin: 0;
+    margin-left: 70px;
+    display: inline-block;
+    position: relative;
+}
+
+#frontend_list_03 > li > a{
+    display: block; 
+    position: relative; 
+    padding-bottom: 19px;
+
+}
+
+#frontend_list_03 > li > a > img{
+    width: 300px; 
+    height: 100px;
+}
+
+#frontend_list_03 > li > a > span{
+    position:absolute; 
+    bottom: 0; 
+    left: 50%; 
+    color: #666; 
+    line-height: 1.462em; 
+    white-space: nowrap; 
+    transform: translate(-50%, 0);
+}
+
+#front{
+    width: 300px; 
+    height: 300px;
+    margin: 0 auto;
+    display: block;
+}
+
 /* 
 Back-End 
 */
