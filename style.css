@@ -508,6 +508,40 @@ Front-End
     border: 2px solid #C2B4AB;
     border-radius: 25px;
 }
+
+.frontend-two>h4{
+    font-size: 17px;
+}
+
+#frontend_list_02 > li{
+    margin: 0;
+    /* margin-left: 75px; */
+    margin-left: 200px;
+    display: inline-block;
+    position: relative;
+}
+
+#frontend_list_02 > li > a{
+    display: block; 
+    position: relative; 
+    padding-bottom: 19px;
+
+}
+
+#frontend_list_02 > li > a > img{
+    width: 300px; 
+    height: 300px;
+}
+
+#frontend_list_02 > li > a > span{
+    position:absolute; 
+    bottom: 0; 
+    left: 50%; 
+    color: #666; 
+    line-height: 1.462em; 
+    white-space: nowrap; 
+    transform: translate(-50%, 0);
+}
 /* 
 Back-End 
 */
