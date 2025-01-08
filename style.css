@@ -744,3 +744,27 @@ Machine-Vision
     position: relative;
 }
 
+/* machine-one */
+
+.machine-one>h2{
+    margin: 0px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 35px;
+}
+
+/* machine-two */
+
+.machineVision_pic_01{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.machine-two>h4{
+    font-size: 17px;
+}
+
+#machineVision_01{
+    width: 700px;
+    height: 250px;
+}
