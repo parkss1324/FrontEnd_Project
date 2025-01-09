@@ -768,3 +768,19 @@ Machine-Vision
     width: 700px;
     height: 250px;
 }
+
+.lib_list{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.lib_list>img{
+    margin-bottom: 20px;
+}
+
+.lib_codelist{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
