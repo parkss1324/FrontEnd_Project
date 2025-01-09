@@ -637,7 +637,6 @@ Front-End
 
 #frontend_list_06 > li{
     margin: 0;
-    /* margin-left: 75px; */
     margin-left: 150px;
     display: inline-block;
     position: relative;
@@ -779,8 +778,97 @@ Machine-Vision
     margin-bottom: 20px;
 }
 
-.lib_codelist{
+/* machine-three */
+
+.mediapipe_lib{
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+
+#machineVision_list_01 > li{
+    margin: 0;
+    margin-left: 5px;
+    display: inline-block;
+    position: relative;
+}
+
+#machineVision_list_01 > li > a{
+    display: block; 
+    position: relative; 
+    padding-bottom: 19px;
+
+}
+
+#machineVision_list_01 > li > a > img{
+    width: 400px; 
+    height: 300px;
+}
+
+#machineVision_list_01 > li > a > span{
+    position:absolute; 
+    bottom: 0; 
+    left: 50%; 
+    color: #666; 
+    line-height: 1.462em; 
+    white-space: nowrap; 
+    transform: translate(-50%, 0);
+}
+
+#machineVision_list_02 > li{
+    margin: 0;
+    margin-left: 5px;
+    display: inline-block;
+    position: relative;
+}
+
+#machineVision_list_02 > li > a{
+    display: block; 
+    position: relative; 
+    padding-bottom: 19px;
+
+}
+
+#machineVision_list_02 > li > a > img{
+    width: 400px; 
+    height: 300px;
+}
+
+#machineVision_list_02 > li > a > span{
+    position:absolute; 
+    bottom: 0; 
+    left: 50%; 
+    color: #666; 
+    line-height: 1.462em; 
+    white-space: nowrap; 
+    transform: translate(-50%, 0);
+}
+
+#machineVision_list_03 > li{
+    margin: 0;
+    margin-left: 5px;
+    display: inline-block;
+    position: relative;
+}
+
+#machineVision_list_03 > li > a{
+    display: block; 
+    position: relative; 
+    padding-bottom: 19px;
+
+}
+
+#machineVision_list_03 > li > a > img{
+    width: 400px; 
+    height: 300px;
+}
+
+#machineVision_list_03 > li > a > span{
+    position:absolute; 
+    bottom: 0; 
+    left: 50%; 
+    color: #666; 
+    line-height: 1.462em; 
+    white-space: nowrap; 
+    transform: translate(-50%, 0);
 }
