@@ -782,6 +782,70 @@ Machine-Vision
 
 /* machine-four */
 
+.opencv_lib{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#opencv_list_ul_01 > li{
+    margin: 0;
+    margin-left: 5px;
+    display: inline-block;
+    position: relative;
+}
+
+#opencv_list_ul_01 > li > a{
+    display: block; 
+    position: relative; 
+    padding-bottom: 19px;
+
+}
+
+#opencv_list_ul_01 > li > a > img{
+    width: 400px; 
+    height: 300px;
+}
+
+#opencv_list_ul_01 > li > a > span{
+    position:absolute; 
+    bottom: 0; 
+    left: 50%; 
+    color: #666; 
+    line-height: 1.462em; 
+    white-space: nowrap; 
+    transform: translate(-50%, 0);
+}
+
+#opencv_list_ul_02 > li{
+    margin: 0;
+    margin-left: 5px;
+    display: inline-block;
+    position: relative;
+}
+
+#opencv_list_ul_02 > li > a{
+    display: block; 
+    position: relative; 
+    padding-bottom: 19px;
+
+}
+
+#opencv_list_ul_02 > li > a > img{
+    width: 400px; 
+    height: 300px;
+}
+
+#opencv_list_ul_02 > li > a > span{
+    position:absolute; 
+    bottom: 0; 
+    left: 50%; 
+    color: #666; 
+    line-height: 1.462em; 
+    white-space: nowrap; 
+    transform: translate(-50%, 0);
+}
+
 /* machine-five */
 
 .mediapipe_lib{
@@ -875,6 +939,17 @@ Machine-Vision
     line-height: 1.462em; 
     white-space: nowrap; 
     transform: translate(-50%, 0);
+}
+
+.machineVision_pic_02{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#machineVision_15{
+    width: 700px;
+    height: 250px;
 }
 
 /* machine-six */
