@@ -104,9 +104,13 @@ body{
 
 /* profile-history */
 
-/* .profile-history{
+.profile-history>h2{
+    font-family: 'Noto Sans KR', sans-serif;
+}
 
-} */
+.profile-history>p{
+    font-family: 'Noto Sans KR', sans-serif;
+}
 
 /* profile-section */
 
@@ -134,17 +138,13 @@ body{
 
 .profile-introduction>p{
     font-family: 'Noto Sans KR', sans-serif;
-    font-weight: 300;
-    font-size: 16px;
-    margin-bottom: 40px;
+    font-size: 18px;
+    margin-bottom: 30px;
 }
 
 #capability{
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 400;
-    font-size: 20px;
-    font-style: italic;
-    line-height: 30px;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 17px;
 }
 
 /*value section*/
