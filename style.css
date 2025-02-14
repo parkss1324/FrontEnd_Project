@@ -753,61 +753,69 @@ Machine-Vision
 
 /* machine-two */
 
-.machineVision_pic_01{
+.ml_01{
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-.machine-two>h4{
-    font-size: 17px;
+#ml_list_01 > li{
+    margin: 0;
+    margin-left: 5px;
+    display: inline-block;
+    position: relative;
 }
 
-#machineVision_01{
-    width: 700px;
-    height: 250px;
+#ml_list_01 > li > a{
+    display: block; 
+    position: relative; 
+    padding-bottom: 19px;
+
 }
 
-.lib_list{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+#ml_list_01 > li > a > img{
+    width: 400px; 
+    height: 300px;
 }
 
-.lib_list>img{
-    margin-bottom: 20px;
+#ml_list_01 > li > a > span{
+    position:absolute; 
+    bottom: 0; 
+    left: 50%; 
+    color: #666; 
+    line-height: 1.462em; 
+    white-space: nowrap; 
+    transform: translate(-50%, 0);
 }
 
 /* machine-three */
 
-/* machine-four */
-
-.opencv_lib{
+.ml_02{
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-#opencv_list_ul_01 > li{
+#ml_list_02 > li{
     margin: 0;
     margin-left: 5px;
     display: inline-block;
     position: relative;
 }
 
-#opencv_list_ul_01 > li > a{
+#ml_list_02 > li > a{
     display: block; 
     position: relative; 
     padding-bottom: 19px;
 
 }
 
-#opencv_list_ul_01 > li > a > img{
+#ml_list_02 > li > a > img{
     width: 400px; 
     height: 300px;
 }
 
-#opencv_list_ul_01 > li > a > span{
+#ml_list_02 > li > a > span{
     position:absolute; 
     bottom: 0; 
     left: 50%; 
@@ -817,142 +825,160 @@ Machine-Vision
     transform: translate(-50%, 0);
 }
 
-#opencv_list_ul_02 > li{
-    margin: 0;
-    margin-left: 5px;
-    display: inline-block;
-    position: relative;
+/* machine-four */
+
+.ml_pic_01{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
-#opencv_list_ul_02 > li > a{
-    display: block; 
-    position: relative; 
-    padding-bottom: 19px;
-
+#ml_06{
+    width: 700px;
+    height: 400px;
 }
 
-#opencv_list_ul_02 > li > a > img{
-    width: 400px; 
-    height: 300px;
+.ml_pic_02{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
-#opencv_list_ul_02 > li > a > span{
-    position:absolute; 
-    bottom: 0; 
-    left: 50%; 
-    color: #666; 
-    line-height: 1.462em; 
-    white-space: nowrap; 
-    transform: translate(-50%, 0);
+#ml_07{
+    width: 700px;
+    height: 400px;
 }
 
 /* machine-five */
 
-.mediapipe_lib{
+.ml_pic_03{
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-#machineVision_list_01 > li{
-    margin: 0;
-    margin-left: 5px;
-    display: inline-block;
-    position: relative;
-}
-
-#machineVision_list_01 > li > a{
-    display: block; 
-    position: relative; 
-    padding-bottom: 19px;
-
-}
-
-#machineVision_list_01 > li > a > img{
-    width: 400px; 
-    height: 300px;
-}
-
-#machineVision_list_01 > li > a > span{
-    position:absolute; 
-    bottom: 0; 
-    left: 50%; 
-    color: #666; 
-    line-height: 1.462em; 
-    white-space: nowrap; 
-    transform: translate(-50%, 0);
-}
-
-#machineVision_list_02 > li{
-    margin: 0;
-    margin-left: 5px;
-    display: inline-block;
-    position: relative;
-}
-
-#machineVision_list_02 > li > a{
-    display: block; 
-    position: relative; 
-    padding-bottom: 19px;
-
-}
-
-#machineVision_list_02 > li > a > img{
-    width: 400px; 
-    height: 300px;
-}
-
-#machineVision_list_02 > li > a > span{
-    position:absolute; 
-    bottom: 0; 
-    left: 50%; 
-    color: #666; 
-    line-height: 1.462em; 
-    white-space: nowrap; 
-    transform: translate(-50%, 0);
-}
-
-#machineVision_list_03 > li{
-    margin: 0;
-    margin-left: 5px;
-    display: inline-block;
-    position: relative;
-}
-
-#machineVision_list_03 > li > a{
-    display: block; 
-    position: relative; 
-    padding-bottom: 19px;
-
-}
-
-#machineVision_list_03 > li > a > img{
-    width: 400px; 
-    height: 300px;
-}
-
-#machineVision_list_03 > li > a > span{
-    position:absolute; 
-    bottom: 0; 
-    left: 50%; 
-    color: #666; 
-    line-height: 1.462em; 
-    white-space: nowrap; 
-    transform: translate(-50%, 0);
-}
-
-.machineVision_pic_02{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-#machineVision_15{
+#ml_08{
     width: 700px;
-    height: 250px;
+    height: 400px;
+}
+
+.ml_pic_04{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#ml_09{
+    width: 700px;
+    height: 400px;
 }
 
 /* machine-six */
+
+.ml_03{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#ml_list_03 > li{
+    margin: 0;
+    margin-left: 5px;
+    display: inline-block;
+    position: relative;
+}
+
+#ml_list_03 > li > a{
+    display: block; 
+    position: relative; 
+    padding-bottom: 19px;
+
+}
+
+#ml_list_03 > li > a > img{
+    width: 400px; 
+    height: 300px;
+}
+
+#ml_list_03 > li > a > span{
+    position:absolute; 
+    bottom: 0; 
+    left: 50%; 
+    color: #666; 
+    line-height: 1.462em; 
+    white-space: nowrap; 
+    transform: translate(-50%, 0);
+}
+
+.ml_04{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#ml_list_04 > li{
+    margin: 0;
+    margin-left: 5px;
+    display: inline-block;
+    position: relative;
+}
+
+#ml_list_04 > li > a{
+    display: block; 
+    position: relative; 
+    padding-bottom: 19px;
+
+}
+
+#ml_list_04 > li > a > img{
+    width: 400px; 
+    height: 300px;
+}
+
+#ml_list_04 > li > a > span{
+    position:absolute; 
+    bottom: 0; 
+    left: 50%; 
+    color: #666; 
+    line-height: 1.462em; 
+    white-space: nowrap; 
+    transform: translate(-50%, 0);
+}
+
+.ml_05{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#ml_list_05 > li{
+    margin: 0;
+    margin-left: 5px;
+    display: inline-block;
+    position: relative;
+}
+
+#ml_list_05 > li > a{
+    display: block; 
+    position: relative; 
+    padding-bottom: 19px;
+
+}
+
+#ml_list_05 > li > a > img{
+    width: 400px; 
+    height: 300px;
+}
+
+#ml_list_05 > li > a > span{
+    position:absolute; 
+    bottom: 0; 
+    left: 50%; 
+    color: #666; 
+    line-height: 1.462em; 
+    white-space: nowrap; 
+    transform: translate(-50%, 0);
+}
 
 /*
     machine-vision-cpp

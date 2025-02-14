@@ -18,8 +18,8 @@
                 <h1 class="site-name">자기소개서</h1>
                 <ul>
                     <li><a class="nav-menu" href="index.html">INFO</a></li>
-                    <li><a class="nav-menu" href="machineVision_Python.html">머신비전(Python)</a></li>
-                    <li><a class="nav-menu" href="machineVision_Cpp.html">머신비전(C++)</a></li>
+                    <li><a class="nav-menu" href="machineVision_Cpp.html">머신러닝(C++)</a></li>
+                    <li><a class="nav-menu" href="machineVision_Python.html">딥러닝(Python)</a></li>
                     <li><a class="nav-menu" href="embedded.html">임베디드</a></li>
                     <li><a class="nav-menu" href="frontEnd.html">프론트엔드</a></li>
                 </ul>
@@ -30,31 +30,33 @@
                 <div class="machine-introduction">
                     <h2>Machine-Vision</h2>
                     <p>                         
-                        "머신비전(machine-vision)"은 기계에 인간의 시각과 판단 기능을 부여하여,<br>
-                        사람이 인지하고 판단하는 작업을 하드웨어와 소프트웨어 시스템이 대신 수행하는 기술입니다.<br><br>
-                        이는 카메라, 렌즈, 조명, 이미지 프로세서, 소프트웨어 등으로 구성된 시스템을 통해 이루어지며,<br>
-                        제조업, 물류, 의료, 자동차 등 다양한 분야에 적용됩니다.<br><br>
-                        머신비전을 통해 제품 품질을 개선하고 안정성을 높이며, 생산성 및 정밀도를 향상시키는 역할을 합니다.
+                        "머신러닝(machine-learning)"은 컴퓨터가 데이터에서 학습, 프로그래밍 없이 스스로 판단하는 기술입니다.<br><br>
+                        쉽게 말해, 사람이 직접 규칙을 코드로 작성하지 않고, 컴퓨터가 데이터를 보고 규칙을 스스로 찾는 것입니다.<br><br>
+                        종류로는 정답이 있는 데이터를 학습하여 새로운 데이터를 예측하는 '지도 학습'과 정답 없이 데이터를 그룹으로 나누는 '비지도 학습',
+                        시행착오를 반복하며 최적이 행동을 학습하는 '강화 학습'이 있습니다.<br><br>
+                        데이터 수집 - 특징 추출 - 모델 학습 - 모델 평가 - 예측의 과정을 거쳐 머신러닝이 동작합니다.     
                     </p>
                 </div>
             </div>
 
             <div class="machine-one">
-                <h2>Road Lane Detection<br></h2>
+                <h2>SVM & KNN algorithm<br></h2>
                 <h3>1. 프로젝트 소개</h3>
-                <p>유튜브 URL을 가져와, 동영상에서 차선을 검출합니다.</p>
+                <p> 승용차, 트럭, 버스의 이미지를 머신러닝으로 학습시킨 후,<br>
+                    차량 이미지를 SVM 알고리즘과 KNN 알고리즘으로 인식한 결과들을 나타내게 합니다.</p>
                     
                 <table border="2">
                     <tr>
                         <th>개발 기간 및 과정</th>
                         <th>
-                            2025.01 ~ 현재진행형<br><br>
+                            2025.02 ~ 현재진행형<br><br>
                             1. 계획 수립<br>
-                            2. yt-dlp 라이브러리 설치<br>
-                            3. 유튜브 URL 가져오기<br>
-                            4. ROI 영역 설정 및 차선 검출<br>
-                            5. 구현 화면<br>
-                            6. 포트폴리오 제작
+                            2. 데이터셋 로드를 위한 폴더 생성 및 이미지 첨부<br>
+                            3. HOG 특징 추출<br>
+                            4. SVM 모델 학습<br>
+                            5. KNN 모델 학습<br>
+                            6. 테스트 데이터 예측<br>
+                            7. 포트폴리오 제작
                         </th>
                     </tr>
                     <tr>
@@ -64,139 +66,196 @@
                     <tr>
                         <th>기술 스택 및 개발 환경</th>
                         <th>
-                            기술 스택: C++, Machine Vision<br>
+                            기술 스택: C++, Machine Vision, Machine Learning<br>
                             소프트웨어: Visual Studio Code, OpenCV<br>
                         </th>
                     </tr>
                     <tr>
                         <th>깃허브 주소</th>
-                        <th>https://github.com/parkss1324/MachineVision_Cpp_Project
+                        <th>https://github.com/parkss1324/ML_Cpp_Project
                         </th>
                     </tr>
                 </table>
             </div>
 
             <div class="machine-two">
-                <h3><br>2. yt-dlp 라이브러리 설치<br></h3>
-                <h4>라이브러리</h4>
+                <h3><br>2. 데이터셋 로드를 위한 폴더 생성 및 이미지 첨부<br></h3>
                 <p>
-                    프로그래밍에서 자주 사용되는 코드(함수, 클래스, 모듈 등)를 모아 놓은 재사용 가능한 코드 집합입니다.<br>
-                    특정 작업을 쉽게 수행할 수 있도록 미리 작성된 코드 모음으로, 개발자가 처음부터 코드를 작성하지 않아도 되도록 도와줍니다.
+                    데이터셋 로드를 위해 폴더가 만들어 진 경로를 설정합니다.<br><br>
+                    또한 폴더에 학습할 이미지를 첨부합니다.
                 </p>
-                <h4>yt-dlp</h4>
-                <p>
-                    Youtube 및 기타 여러 비디오 플랫폼에서 동영상을 다운로드하고 다양한 정보를 추출할 수 있는 강력한 오픈 소스 Python 라이브러리 및 명령줄 도구입니다.<br>
-                    이는 원래 youtube-dl 프로젝트를 기반으로 개발되었으며, 더 많은 기능과 개선사항을 추가한 포크(Fork) 버전입니다.
-                </p>
-                <div class="machineVision_pic_01">
-                    <h4>yt-dlp 라이브러리</h4>
-                    <img id="machineVision_02" src="machineVision_16.png"><br>  
-                </div>                   
+                <div class="ml_01">
+                    <ul id="ml_list_01">      
+                        <li>   
+                            <a href="#">
+                                <img src="ml_01.png">
+                                <span>데이터셋 경로 설정</span>
+                            </a>                                                       
+                        </li>
+                        <li>   
+                            <a href="#">
+                                <img src="ml_02.png">
+                                <span>관련 코드</span>
+                            </a>                                                       
+                        </li>
+                        <li>   
+                            <a href="#">
+                                <img src="ml_03.png">
+                                <span>폴더에 이미지 첨부</span>
+                            </a>                                                       
+                        </li>
+                    </ul>
+                </div>
             </div>
 
             <div class="machine-three">
-                <h3>3. 유튜브 URL 가져오기<br></h3>
-                <p>yt-dlp 모듈을 사용하여 필요한 기능을 구현합니다.</p>
-                <div class="mediapipe_lib">
-                    <div class ="mediapipe_list_01">
-                        <ul id="machineVision_list_04">      
-                            <li>   
-                                <a href="#">
-                                    <img src="machineVision_17.png">
-                                    <span>yt-dlp 라이브러리 사용</span>
-                                </a>                                                       
-                            </li>
-                            <li>   
-                                <a href="#">
-                                    <img src="machineVision_18.png">
-                                    <span>Youtube 스트림 URL 가져오기</span>
-                                </a>                                                       
-                            </li>
-                        </ul>
-                    </div>
+                <h3>3. HOG 특징 추출<br></h3>
+                <p>
+                    'HOG(Histograms of Oriented Gradients)'는 그래디언트(기울기) 방향 히스토그램을 의미합니다.<br><br>
+                    그래디언트의 분포를 일정 규칙에 의해 저장하고 이와 유사한 그래디언트 분포를 띄는 이미지가 입력되면 인식하는 원리입니다.<br><br>
+                </p>
+                <div class="ml_02">
+                    <ul id="ml_list_02">      
+                        <li>   
+                            <a href="#">
+                                <img src="ml_04.png">
+                                <span>이미지에 대한 HOG 특징 추출</span>
+                            </a>                                                       
+                        </li>
+                        <li>   
+                            <a href="#">
+                                <img src="ml_05.png">
+                                <span>관련 코드</span>
+                            </a>                                                       
+                        </li>
+                    </ul>
                 </div>
             </div>
 
             <div class="machine-four">
-                <h3>4. ROI 영역 설정 및 차선 검출<br></h3>
+                <h3>4. SVM 모델 학습<br></h3>
                 <p>
-                    ROI는 Region Of Interest의 약자로 관심 영역을 의미합니다.<br><br>
-                    OpenCV에서는 이 영역을 설정하여 측정 범위를 설정합니다.
+                    '서포트 벡터 머신 알고리즘(SVM, Support Vector Machine)'은 기본적으로 두 개의 클래스로 구성된 데이터를<br><br>
+                    가장 여유 있게 분리하는 '초평면(Hyperplane)'으로 찾는 머신러닝 알고리즘입니다. 지도 학습의 일종이며, 분류와 회귀에 사용될 수 있습니다.
                 </p>
-
-                <div class="opencv_lib">
-                    <div class ="opencv_list_01">
-                        <ul id="machineVision_list_05">      
-                            <li>   
-                                <a href="#">
-                                    <img src="machineVision_19.png">
-                                    <span>ROI 테스트 코드</span>
-                                </a>                                                       
-                            </li>
-                            <li>   
-                                <a href="#">
-                                    <img src="machineVision_20.png">
-                                    <span>구현 화면</span>
-                                </a>                                                       
-                            </li>
-                        </ul>
-                    </div>
-
-                    <div class ="opencv_list_02">
-                        <ul id="machineVision_list_06">      
-                            <li>   
-                                <a href="#">
-                                    <img src="machineVision_21.png">
-                                    <span>ROI 설정</span>
-                                </a>                                                       
-                            </li>
-                            <li>   
-                                <a href="#">
-                                    <img src="machineVision_22.png">
-                                    <span>ROI 영역을 검은색으로 채우고 bitwise_and()로 움직임 감지</span>
-                                </a>                                                       
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-
-                <h3>5. 구현 화면<br></h3>
+                <div class="ml_pic_01">
+                    <img id="ml_06" src="ml_06.png">
+                </div> 
                 <p>
-                    다음과 같은 화면이 나오면 구현이 된 것입니다.
+                    파란색 사각형과 빨간색 원으로 표시된 두 클래스 사이에 초평면을 이용하여 분할합니다.<br><br>
+                    초평면에 가장 가까이 있는 데이터들을 '서포트 벡터', 초평면과 가장 가까이 있는 파란색 사각형 또는 빨간색 원의 거리를 '마진'이라고 합니다.
                 </p>
-                <div class="machineVision_pic_03">
-                    <img id="machineVision_23" src="machineVision_23.png"> 
-                    <p>동영상에서 차선이 정상적으로 검출</p>
+                <div class="ml_pic_02">
+                    <img id="ml_07" src="ml_07.png">
+                </div> 
+            </div>
+                
+            <div class="machine-five">
+                <h3>5. KNN 모델 학습<br></h3>
+                <p>
+                    'K 최근접 이웃 알고리즘(KNN, K-Nearest Neighbor)'은 특정 공간에서 테스트 데이터와 가장 가까운 K개의 훈련 데이터를 찾고,<br><br>
+                    K개의 훈련 데이터 중에서 가장 많은 클래스를 테스트 데이터의 클래스로 지정하는 머신러닝 알고리즘입니다. 지도 학습의 일종이며, 분류와 회귀에 사용될 수 있습니다.
+                </p>
+                <div class="ml_pic_03">
+                    <img id="ml_08" src="ml_08.png">
+                </div> 
+                <p>
+                    실선 동그라미에서 빨간색 삼각형 클래스를 지정하는 것이 더 합리적이지만, 점선 동그라미에서 파란색 사각형 클래스로 지정하는 것이 더 합리적입니다.<br><br>
+                    이러한 방식으로 분류하는 방법을 KNN 알고리즘이라고 합니다.
+                </p>
+                <div class="ml_pic_04">
+                    <img id="ml_09" src="ml_09.png">
                 </div> 
             </div>
 
             <div class="machine-six">
-                <h3>5. 느낀 점(회고)</h3>
+                <h3>6. 테스트 데이터 예측<br></h3>
+                <p>
+                    분류할 이미지 경로를 설정하고 그 이미지에 대해 SVM, KNN 알고리즘을 수행합니다.<br><br>
+                    알고리즘에 따라 분류된 이미지가 출력 창에 나타납니다.
+                </p>
+                <div class="ml_03">
+                    <ul id="ml_list_03">      
+                        <li>   
+                            <a href="#">
+                                <img src="ml_10.png">
+                                <span>테스트 이미지</span>
+                            </a>                                                       
+                        </li>
+                        <li>   
+                            <a href="#">
+                                <img src="ml_11.png">
+                                <span>머신러닝 학습 데이터셋</span>
+                            </a>                                                       
+                        </li>
+                    </ul>
+                </div>
+                <div class="ml_04">
+                    <ul id="ml_list_04">      
+                        <li>   
+                            <a href="#">
+                                <img src="ml_12.png">
+                                <span>결과값에 따른 SVM 이미지 분류</span>
+                            </a>                                                       
+                        </li>
+                        <li>   
+                            <a href="#">
+                                <img src="ml_13.png">
+                                <span>결과값에 따른 KNN 이미지 분류</span>
+                            </a>                                                       
+                        </li>
+                    </ul>
+                </div>
+                <p>
+                    동작 결과를 다음과 같이 얻을 수 있습니다.
+                </p>
+                <div class="ml_05">
+                    <ul id="ml_list_05">      
+                        <li>   
+                            <a href="#">
+                                <img src="ml_14.png">
+                                <span>학습한 데이터셋 개수</span>
+                            </a>                                                       
+                        </li>
+                        <li>   
+                            <a href="#">
+                                <img src="ml_15.png">
+                                <span>SVM, KNN 분류 결과</span>
+                            </a>                                                       
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="machine-seven">
+                <h3>7. 느낀 점(회고)</h3>
                 <table border="2">
                     <tr>
-                        <th>새로운 개발 환경에 대한 도전</th>
+                        <th>머신비전과 머신러닝의 활용</th>
                         <th>
-                            OpenCV를 동작시키는 Visual Studio가 MacOS 지원을 중단하여 개발이 가장 마지막으로 이루어졌습니다.<br><br>
-                            Visual Studio Code를 통해 동작시키기 위해 시간이 날 때마다 관련 자료들을 찾아보기 시작했고 결국 동작시킬 수 있었습니다.<br><br>
-                            현재는 이를 활용하여 다양한 머신비전 기능 개발을 진행하고 있습니다. 
+                            C++을 배우고 이 프로그래밍 언어를 기반으로 머신비전을 공부하여 얼굴 인식, 차량 번호 인식, 차선 검출 등을 구현하며 역량을 기르고 있었습니다.<br><br>
+                            이 후, 머신러닝에 대한 개념을 배우게 되며 머신비전 기술을 접목시켜 알고리즘을 활용한 이미지 분류에 대한 개발을 도전하게 되었습니다.<br><br>
+                            머신비전과 관련 있는 SVM, KNN 알고리즘을 구현해보면서 더 전문성 있는 머신비전 개발자가 될 수 있는 시간이었습니다.
                         </th>
                     </tr>
                     <tr>
                         <th>사용 분야의 범위 응용</th>
                         <th>
-                            영상에 대해 기능 구현을 할 때, URL 영상 주소만 바꿔서 원하는 영상으로 테스트할 수 있습니다.<br><br>
-                            차선 검출 외에도 코드를 얼굴 또는 번호판 인식으로 코드를 바꿔서 응용할 수 있습니다.
+                            만든 포트폴리오는 차량 종류를 구별하는 기능이지만, 데이터셋을 다르게 하여 다양한 기능으로 활용할 수 있습니다.<br><br>
+                            충돌, 전복, 보행자 사고 등 교통 사고 유형을 분류할 수 있으며 빙판길, 침수길 등 도로 상태도 확인할 수 있습니다.<br><br>
+                            제조업 분야에서는 불량품을 탐지 및 작업자의 안전 관리, 스포츠에서 운동 자세 및 공의 궤적 분석 등 활용 분야를 넓힐 수 있습니다.
                         </th>
                     </tr>
                     <tr>
-                        <th>추가 기능 구현 계획</th>
+                        <th>딥러닝 분야 확장</th>
                         <th>
-                            개발 영역 확장을 위해 머신러닝, 딥러닝 기술을 적용시킬 예정입니다.<br><br>
-                            여러 도로 주행 영상을 학습시켜, 조금 더 정확한 검출이 가능하도록 하기 위해 머신 비전 알고리즘을 공부하고 있습니다.<br><br>
-                            영상 관련 알고리즘을 적용시켜 차선 검출 외에도 다양한 머신러닝, 딥러닝 개발을 계획하고 있습니다.
+                            개발 영역 확장을 위해 딥러닝을 활용한 포트폴리오도 계획 중입니다.<br><br>
+                            딥러닝에 더 최적화된 프로그래밍 언어인 Python을 사용하여 동영상을 기반으로 관련 기능을 수행하는 코드를 만들 예정입니다.<br><br>
+                            현재 다양한 신기술들이 나오는 분야인만큼 최신 기술을 머신비전에 적용시킬 것입니다.
                         </th>
                     </tr>
                 </table>
             </div>
         </div>
     </body>
+</html>
