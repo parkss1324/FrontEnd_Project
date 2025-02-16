@@ -811,7 +811,7 @@ Machine-Vision
 }
 
 #ml_list_02 > li > a > img{
-    width: 400px; 
+    width: 500px; 
     height: 300px;
 }
 
@@ -846,7 +846,7 @@ Machine-Vision
 
 #ml_07{
     width: 700px;
-    height: 400px;
+    height: 300px;
 }
 
 /* machine-five */
@@ -859,7 +859,7 @@ Machine-Vision
 
 #ml_08{
     width: 700px;
-    height: 400px;
+    height: 350px;
 }
 
 .ml_pic_04{
@@ -870,7 +870,7 @@ Machine-Vision
 
 #ml_09{
     width: 700px;
-    height: 400px;
+    height: 250px;
 }
 
 /* machine-six */
@@ -896,7 +896,7 @@ Machine-Vision
 }
 
 #ml_list_03 > li > a > img{
-    width: 400px; 
+    width: 500px; 
     height: 300px;
 }
 
@@ -932,7 +932,7 @@ Machine-Vision
 
 #ml_list_04 > li > a > img{
     width: 400px; 
-    height: 300px;
+    height: 350px;
 }
 
 #ml_list_04 > li > a > span{
@@ -952,8 +952,8 @@ Machine-Vision
 }
 
 #ml_14{
-    width: 700px;
-    height: 400px;
+    width: 600px;
+    height: 300px;
 }
 
 /*
