@@ -663,6 +663,7 @@ Front-End
     white-space: nowrap; 
     transform: translate(-50%, 0);
 }
+
 /* 
 Back-End 
 */
@@ -705,8 +706,10 @@ Back-End
 }
 
 /* 
-Machine-Vision
+Machine-Learning
 */
+
+/* ml-section */
 
 .machine-section{
     display: flex;
@@ -956,9 +959,11 @@ Machine-Vision
     height: 300px;
 }
 
-/*
-    machine-vision-cpp
+/* 
+Deep-Learning
 */
+
+/* dl-section */
 
 #machineVision_02{
     width: 300px;
