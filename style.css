@@ -965,111 +965,51 @@ Deep-Learning
 
 /* dl-section */
 
-#machineVision_02{
-    width: 300px;
-    height: 50px;
-}
-
-.mediapipe_lib{
+.deep-section{
     display: flex;
-    flex-direction: column;
-    align-items: center;
+    flex-direction: row;
+    justify-content: left;
+    align-items: flex-start;
+    margin: 100px 100px;
 }
 
-#machineVision_list_04 > li{
-    margin: 0;
-    margin-left: 0px;
-    display: inline-block;
+#deep-picture{
+    width: 250px;
+    height: 250px;
+    margin-right: 60px;
+    border: 2px solid #C2B4AB;
+    border-radius: 25px;
+    
+}
+
+.deep-introduction{
+    margin-left: 75px;
+}
+
+.deep-introduction>h2{
+    margin: 0px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 35px;
+}
+
+.deep-introduction>p{
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    animation: slide 2s ease-out;
     position: relative;
 }
 
-#machineVision_list_04 > li > a{
-    display: block; 
-    position: relative; 
-    padding-bottom: 19px;
+/* deep-one */
 
+.deep-one>h2{
+    margin: 0px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 35px;
 }
 
-#machineVision_list_04 > li > a > img{
-    width: 450px; 
-    height: 300px;
-}
-
-#machineVision_list_04 > li > a > span{
-    position:absolute; 
-    bottom: 0; 
-    left: 50%; 
-    color: #666; 
-    line-height: 1.462em; 
-    white-space: nowrap; 
-    transform: translate(-50%, 0);
-}
-
-#machineVision_list_05 > li{
-    margin: 0;
-    margin-left: 0px;
-    display: inline-block;
-    position: relative;
-}
-
-#machineVision_list_05 > li > a{
-    display: block; 
-    position: relative; 
-    padding-bottom: 19px;
-
-}
-
-#machineVision_list_05 > li > a > img{
-    width: 450px; 
-    height: 300px;
-}
-
-#machineVision_list_05 > li > a > span{
-    position:absolute; 
-    bottom: 0; 
-    left: 50%; 
-    color: #666; 
-    line-height: 1.462em; 
-    white-space: nowrap; 
-    transform: translate(-50%, 0);
-}
-
-#machineVision_list_06 > li{
-    margin: 0;
-    margin-left: 0px;
-    display: inline-block;
-    position: relative;
-}
-
-#machineVision_list_06 > li > a{
-    display: block; 
-    position: relative; 
-    padding-bottom: 19px;
-
-}
-
-#machineVision_list_06 > li > a > img{
-    width: 600px; 
-    height: 300px;
-}
-
-#machineVision_list_06 > li > a > span{
-    position:absolute; 
-    bottom: 0; 
-    left: 50%; 
-    color: #666; 
-    line-height: 1.462em; 
-    white-space: nowrap; 
-    transform: translate(-50%, 0);
-}
-
-.machineVision_pic_03{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-#machineVision_23{
-    width: 700px;
-    height: 400px;
-}
+/* deep-two */
+/* deep-three */
+/* deep-four */
+/* deep-five */
+/* deep-six */
