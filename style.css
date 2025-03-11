@@ -1009,6 +1009,39 @@ Deep-Learning
 }
 
 /* deep-two */
+
+.dl_pic_01{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#dl_01{
+    width: 700px;
+    height: 400px;
+}
+
+.lib_list{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#dl_02{
+    width: 500px;
+    height: 55px;
+}
+
+#dl_03{
+    width: 800px;
+    height: 55px;
+}
+
+#dl_04{
+    width: 500px;
+    height: 90px;
+}
+
 /* deep-three */
 /* deep-four */
 /* deep-five */
