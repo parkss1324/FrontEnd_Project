@@ -1038,11 +1038,182 @@ Deep-Learning
 }
 
 #dl_04{
-    width: 500px;
+    width: 450px;
     height: 90px;
 }
 
 /* deep-three */
+
 /* deep-four */
+
+.dl_05{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#dl_list_01 > li{
+    margin: 0;
+    margin-left: 5px;
+    display: inline-block;
+    position: relative;
+}
+
+#dl_list_01 > li > a{
+    display: block; 
+    position: relative; 
+    padding-bottom: 19px;
+
+}
+
+#dl_list_01 > li > a > img{
+    width: 400px; 
+    height: 350px;
+}
+
+#dl_list_01 > li > a > span{
+    position:absolute; 
+    bottom: 0; 
+    left: 50%; 
+    color: #666; 
+    line-height: 1.462em; 
+    white-space: nowrap; 
+    transform: translate(-50%, 0);
+}
+
+#dl_list_02 > li{
+    margin: 0;
+    margin-left: 5px;
+    display: inline-block;
+    position: relative;
+}
+
+#dl_list_02 > li > a{
+    display: block; 
+    position: relative; 
+    padding-bottom: 19px;
+
+}
+
+#dl_list_02 > li > a > img{
+    width: 400px; 
+    height: 300px;
+}
+
+#dl_list_02 > li > a > span{
+    position:absolute; 
+    bottom: 0; 
+    left: 50%; 
+    color: #666; 
+    line-height: 1.462em; 
+    white-space: nowrap; 
+    transform: translate(-50%, 0);
+}
+
 /* deep-five */
+
+.dl_09{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#dl_list_03 > li{
+    margin: 0;
+    margin-left: 5px;
+    display: inline-block;
+    position: relative;
+}
+
+#dl_list_03 > li > a{
+    display: block; 
+    position: relative; 
+    padding-bottom: 19px;
+
+}
+
+#dl_list_03 > li > a > img{
+    width: 400px; 
+    height: 350px;
+}
+
+#dl_list_03 > li > a > span{
+    position:absolute; 
+    bottom: 0; 
+    left: 50%; 
+    color: #666; 
+    line-height: 1.462em; 
+    white-space: nowrap; 
+    transform: translate(-50%, 0);
+}
+
+#dl_list_04 > li{
+    margin: 0;
+    margin-left: 5px;
+    display: inline-block;
+    position: relative;
+}
+
+#dl_list_04 > li > a{
+    display: block; 
+    position: relative; 
+    padding-bottom: 19px;
+
+}
+
+#dl_list_04 > li > a > img{
+    width: 400px; 
+    height: 350px;
+}
+
+#dl_list_04 > li > a > span{
+    position:absolute; 
+    bottom: 0; 
+    left: 50%; 
+    color: #666; 
+    line-height: 1.462em; 
+    white-space: nowrap; 
+    transform: translate(-50%, 0);
+}
+
+#dl_list_05 > li{
+    margin: 0;
+    margin-left: 5px;
+    display: inline-block;
+    position: relative;
+}
+
+#dl_list_05 > li > a{
+    display: block; 
+    position: relative; 
+    padding-bottom: 19px;
+
+}
+
+#dl_list_05 > li > a > img{
+    width: 400px; 
+    height: 350px;
+}
+
+#dl_list_05 > li > a > span{
+    position:absolute; 
+    bottom: 0; 
+    left: 50%; 
+    color: #666; 
+    line-height: 1.462em; 
+    white-space: nowrap; 
+    transform: translate(-50%, 0);
+}
+
+.dl_pic_02{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#dl_15{
+    width: 600px;
+    height: 250px;
+}
+
 /* deep-six */
