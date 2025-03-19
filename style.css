@@ -1021,28 +1021,40 @@ Deep-Learning
     height: 400px;
 }
 
-.lib_list{
+.dl_pic_02{
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
 #dl_02{
-    width: 500px;
-    height: 55px;
+    width: 600px;
+    height: 350px;
+}
+
+.dl_pic_03{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 #dl_03{
-    width: 800px;
-    height: 55px;
-}
-
-#dl_04{
-    width: 450px;
-    height: 90px;
+    width: 600px;
+    height: 350px;
 }
 
 /* deep-three */
+
+.dl_pic_04{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#dl_04{
+    width: 700px;
+    height:500px;
+}
 
 /* deep-four */
 
