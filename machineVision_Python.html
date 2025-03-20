@@ -104,7 +104,10 @@
                     필터를 사용하여 이미지의 중요한 패턴(모서리, 선, 색상 변화 등)을 감지합니다.<br>
                     패턴과 특징을 자동으로 학습하여 이미지 분류, 객체 탐지, 스타일 변환 등 다양한 작업에 활용됩니다.<br>
                 </p>
-                             
+                <div class="dl_pic_03">
+                    <h4>합성곱 신경망 계산 예</h4>
+                    <img id="dl_03" src="dl_03.png"><br>  
+                </div>             
             </div>
 
             <div class="deep-three">
@@ -124,99 +127,44 @@
 
             <div class="deep-four">
                 <h3>4. 모델 및 학습 설정<br></h3>
-                <p>OpenCV 모듈을 사용하여 필요한 기능을 구현합니다.</p>
-                <div class="dl_05">
-                    <ul id="dl_list_01">      
-                        <li>   
-                            <a href="#">
-                                <img src="dl_05.png">
-                                <span>카메라 기능 사용</span>
-                            </a>                                                       
-                        </li>
-                        <li>   
-                            <a href="#">
-                                <img src="dl_06.png">
-                                <span>카메라 프레임 읽기</span>
-                            </a>                                                       
-                        </li>
-                    </ul>
-
-                    <ul id="dl_list_02">      
-                        <li>   
-                            <a href="#">
-                                <img src="dl_07.png">
-                                <span>카메라와 캔버스를 합성하여 출력</span>
-                            </a>                                                       
-                        </li>
-                        <li>   
-                            <a href="#">
-                                <img src="dl_08.png">
-                                <span>카메라 종료 및 캔버스 초기화 설정</span>
-                            </a>                                                       
-                        </li>
-                    </ul>
+                <p> 모델을 GPU로 이동시키고 추가적인 기능을 설정합니다.<br><br>
+                    1) CrossEntropyLoss<br><br>
+                    2) Adam
+                </p>
+                <div class="dl_pic_05">
+                    <h4>학습 설정</h4>
+                    <img id="dl_05" src="dl_05.png"><br>  
                 </div>
             </div>
 
             <div class="deep-five">
                 <h3>5. 모델 학습 수행<br></h3>
-                <p>mediapipe 모듈을 사용하여 필요한 기능을 구현합니다.</p>
-                <div class="dl_09">                    
-                    <ul id="dl_list_03">      
-                        <li>   
-                            <a href="#">
-                                <img src="dl_09.png">
-                                <span>mediapipe 라이브러리 사용</span>
-                            </a>                                                       
-                        </li>
-                        <li>   
-                            <a href="#">
-                                <img src="dl_10.png">
-                                <span>모듈이 미리 선언되어 있음</span>
-                            </a>                                                       
-                        </li>
-                    </ul>
-
-                    <ul id="dl_list_04">      
-                        <li>   
-                            <a href="#">
-                                <img src="dl_11.png">
-                                <span>랜드마크 설정</span>
-                            </a>                                                       
-                        </li>
-                        <li>   
-                            <a href="#">
-                                <img src="dl_12.png">
-                                <span>랜드마크 좌표 계산</span>
-                            </a>                                                       
-                        </li>
-                    </ul>
-
-                    <ul id="dl_list_05">      
-                        <li>   
-                            <a href="#">
-                                <img src="dl_13.png">
-                                <span>21개의 랜드마크를 바꿔서 그림이 나오는 위치를 바꿀 수 있음</span>
-                            </a>                                                       
-                        </li>
-                        <li>   
-                            <a href="#">
-                                <img src="dl_14.png">
-                                <span>21개의 랜드마크</span>
-                            </a>                                                       
-                        </li>
-                    </ul>
+                <p> epoch()를 5로 설정하여 <br><br>
+                </p>
+                <div class="dl_pic_06">
+                    <h4>모델 정의</h4>
+                    <img id="dl_06" src="dl_06.png"><br>  
                 </div>
-
-                <p><br>numpy 모듈을 사용하여 필요한 기능을 구현합니다.</p>
-                <div class="dl_pic_02">
-                    <p>0 ~ 255 값의 3채널 컬러 영상의 BGR을 0으로 만들어 초기값 설정</p>
-                    <img id="dl_15" src="dl_15.png"> 
-                </div>          
+                <div class="dl_pic_07">
+                    <h4>출력 결과</h4>
+                    <img id="dl_07" src="dl_07.png"><br>  
+                </div>
             </div>
 
             <div class="deep-six">
                 <h3>6. 이미지 예측 함수 정의</h3>
+                <p> 이미지 예측 함수를 정의하여 주어진 이미지가 어떤 종류의 옷인지 예측하게 합니다.<br><br>
+                <div class="dl_pic_08">
+                    <img id="dl_08" src="dl_08.png"><br>  
+                </div>
+                <div class="dl_pic_09">
+                    <h4>테스트 이미지</h4>
+                    <img id="dl_09" src="dl_09.png"><br>  
+                </div>
+                <div class="dl_pic_10">
+                    <h4>출력 결과</h4>
+                    <img id="dl_10" src="dl_10.png"><br>  
+                </div>
             </div>
 
             <div class="deep-seven">
