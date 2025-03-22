@@ -114,10 +114,10 @@
                 <h3>3. FashionMNIST 모델 정의<br></h3>
                 <p>
                     이미지를 예측하기 위해 신경망을 구성하는 단계입니다.<br><br>
-                    1) Conv2d<br><br>
-                    2) MaxPool2d<br><br>
-                    3) Linear<br><br>
-                    4) relu
+                    1) Conv2d(in_channels, out_channels, kernel_size, padding): 합성곱 계층을 정의합니다.<br><br>
+                    2) MaxPool2d(kernel_size, stride): 풀링 계층을 정의합니다.<br><br>
+                    3) Linear(in_features, out_feature): 뉴련을 변환시켜 완전연결층을 구성합니다.<br><br>
+                    4) relu : ReLU 활성화 함수를 사용하여 비선형성을 추가, 학습 성능을 향상시킵니다. 
                 </p>
                 <div class="dl_pic_04">
                     <h4>모델 정의</h4>
